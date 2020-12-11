@@ -31,6 +31,9 @@ class ItemNav extends HTMLElement{
         }
     }
 
+    /**
+     * @returns {Promise<Array<HTMLElement>>}
+     */
     loadProducts()
     {
         const loading = document.getElementsByTagName("loading-spinner")[0];
