@@ -31,7 +31,7 @@ class ItemNav extends HTMLElement{
         }
     }
 
-    loadProducts = () => 
+    loadProducts()
     {
         const loading = document.getElementsByTagName("loading-spinner")[0];
         loading.style.display = "block";
